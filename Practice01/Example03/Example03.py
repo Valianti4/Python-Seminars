@@ -10,4 +10,4 @@ print('Введите целое положительное число.')
 num = int(input())
 print('Вывод чисел в диапазоне от -N до N:', end = ' ')
 for i in range(-num, num + 1):
-    print(i, end = ', ')
+    print(f'\"{i}\"', end = ', ')
